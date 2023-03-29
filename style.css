@@ -41,7 +41,7 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-right: 176px;
+    margin-right: 177px;
     /* align-self: flex-end; */
 }
 
@@ -104,7 +104,7 @@
 .information{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 700px;
 }
 .heading{
     color: #1F2937;
@@ -152,7 +152,8 @@
     color: black;
     /* align-self: flex-end; */
     /* margin-right: 30px;*/
-    margin-left: 1047px;
+    margin-left: 425px;
+    width : 347px;
     margin-top: 20px;
 }
 

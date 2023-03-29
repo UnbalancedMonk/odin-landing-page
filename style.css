@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header Styling */
+
+.navbar{
+    display: flex;
+    background-color: #1F2937;
+    padding: 15px;
+}
+
+.left{
+    flex-grow: 1;
+}
+
+.left a{
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.navbar .left a{
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 177px;
+}
+
+.right{
+    flex-grow: 1;
+} 
+
+.right a{
+    color: white;
+    text-decoration: none;
+}
+
+.right ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 176px;
+    /* align-self: flex-end; */
+}
+
+.right ul li{
+    padding: 0 0 0 40px;
+    /* align-self: flex-end; */
+}
+
+
+/* Main Body Styling */
+
+.one{
+    background-color: #1F2937;
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.oneimg{
+    background-color: grey;
+    height: 225px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.onetext{
+    color: white;
+    width: 350px;
+}
+.onetext h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.onetext p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.onetext button{
+    height: 30px;
+    width: 75px;
+    margin-top: 15px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
+}
+
+
+/* 2nd Division Styling */
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.heading{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+.a div p{
+    margin-top: 210px;
+    margin-left: 20px;
+}
+
+
+/* 3rd Division Styling */
+
+
+.three{
+    height: 350px;
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.three p{
+    font-size: 36px;
+    width: 950px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.three #name{
+    font-weight: bold;
+    color: black;
+    /* align-self: flex-end; */
+    /* margin-right: 30px;*/
+    margin-left: 1047px;
+    margin-top: 20px;
+}
+
+
+/* 5th Division Styling */
+
+
+.four{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.actionleft{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.actionleft h2{
+    font-weight: bolder;
+}
+.actionleft h3{
+    font-weight: 10;
+    font-size: 18px;
+}
+.actionright{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.actionright button{
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+
+/* Footer Styling */
+
+
+.footer{
+    height: 75px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}
